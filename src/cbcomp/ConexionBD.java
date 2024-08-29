@@ -5,7 +5,7 @@ import java.sql.*;
 public class ConexionBD {
 
     public static Connection con = null;
-
+//h
     // Corregir la cadena de conexión
     static String url = "jdbc:sqlserver://localhost:1433;databaseName=CBComp";
     static String user = "admin_cbcomp";
