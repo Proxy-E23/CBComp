@@ -5,8 +5,8 @@ import java.sql.*;
 public class ConexionBD {
 
     public static Connection con = null;
-//h
-    // Corregir la cadena de conexión
+    
+    // Cadena de conexión
     static String url = "jdbc:sqlserver://localhost:1433;databaseName=CBComp";
     static String user = "admin_cbcomp";
     static String pass = "@admCBComp";
@@ -18,7 +18,7 @@ public class ConexionBD {
 
     public static void abrirConexion() {
         try {
-            // Crear conexión usando la URL, usuario y contraseña
+            // Cnexión usando la URL, usuario y contraseña
             con = DriverManager.getConnection(url, user, pass);
             System.out.println("Conexión exitosa!");
 

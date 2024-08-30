@@ -37,11 +37,9 @@ public class GeneraSQL {
 }
 
 
-   // public String agregarUser(String nom, String ap, String user, String pass, String preg, String resp, int nivel) {
-
-        //SQL = "INSERT INTO Users values ('" + nom + "', '" + ap + "', '" + user + "', '" + pass + "', '" + preg + "', '" + resp + "'," + nivel + ")";
-
-      //  return SQL;
+    // public String agregarUser(String nom, String ap, String user, String pass, String preg, String resp, int nivel) {
+    //SQL = "INSERT INTO Users values ('" + nom + "', '" + ap + "', '" + user + "', '" + pass + "', '" + preg + "', '" + resp + "'," + nivel + ")";
+    //  return SQL;
     //}
 
     public String agregarMarca(String Marca) {

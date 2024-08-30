@@ -955,7 +955,7 @@ public class Venta_controlbienes extends javax.swing.JFrame {
 
     private void txt_observacionesKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txt_observacionesKeyTyped
 
-        if (txt_observaciones.getText().length() >= 50) {
+        if (txt_observaciones.getText().length() >= 500) {
             java.awt.Toolkit.getDefaultToolkit().beep();
             evt.consume();
         }

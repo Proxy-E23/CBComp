@@ -200,10 +200,8 @@ public class principal extends javax.swing.JFrame {
         jMenuBar1.setBackground(new java.awt.Color(51, 51, 51));
         jMenuBar1.setForeground(new java.awt.Color(51, 51, 51));
 
-        jMenu3.setBackground(new java.awt.Color(255, 255, 255));
         jMenu3.setText("Control");
 
-        jMenuItem1.setBackground(new java.awt.Color(255, 255, 255));
         jMenuItem1.setText("Altas, Bajas y Modificacioes");
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -214,11 +212,9 @@ public class principal extends javax.swing.JFrame {
 
         jMenuBar1.add(jMenu3);
 
-        jMenu4.setBackground(new java.awt.Color(255, 255, 255));
         jMenu4.setText("Administracion");
 
-        jMenuItem6.setBackground(new java.awt.Color(255, 255, 255));
-        jMenuItem6.setText("Catalogos");
+        jMenuItem6.setLabel("Catalogo de Datos");
         jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem6ActionPerformed(evt);
@@ -226,7 +222,7 @@ public class principal extends javax.swing.JFrame {
         });
         jMenu4.add(jMenuItem6);
 
-        jMenuItem7.setText("Reportes");
+        jMenuItem7.setText("Generar Reportes");
         jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem7ActionPerformed(evt);
@@ -248,7 +244,7 @@ public class principal extends javax.swing.JFrame {
         });
         jMenu2.add(jmenu_adminCuenta);
 
-        jMenuItem2.setText("Administrador");
+        jMenuItem2.setLabel("Panel Administrador");
         jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem2ActionPerformed(evt);

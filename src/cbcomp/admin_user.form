@@ -27,7 +27,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -47,13 +47,12 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
                       <Component id="txt_resp" max="32767" attributes="0"/>
-                      <Component id="cnb_preg" pref="246" max="32767" attributes="0"/>
-                      <Component id="btn_modificar" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
-                      <Component id="jLabel11" alignment="1" max="32767" attributes="0"/>
+                      <Component id="cnb_preg" pref="0" max="32767" attributes="0"/>
+                      <Component id="jLabel11" alignment="1" pref="246" max="32767" attributes="0"/>
                       <Group type="102" alignment="1" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jLabel12" max="32767" attributes="0"/>
                               <Component id="txt_nom" pref="120" max="32767" attributes="0"/>
+                              <Component id="jLabel12" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -61,24 +60,25 @@
                               <Component id="jLabel13" max="32767" attributes="0"/>
                           </Group>
                       </Group>
+                      <Component id="btn_modificar" alignment="0" min="-2" pref="125" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="txt_user" pref="120" max="32767" attributes="0"/>
-                                  <Component id="jLabel7" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="txt_user" pref="125" max="32767" attributes="0"/>
+                                  <Component id="jLabel7" pref="0" max="32767" attributes="0"/>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                  <Component id="jLabel8" max="32767" attributes="0"/>
                                   <Component id="txt_pass" pref="120" max="32767" attributes="0"/>
+                                  <Component id="jLabel8" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <Component id="btn_back" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                          <Component id="btn_back" alignment="1" min="-2" pref="125" max="-2" attributes="0"/>
                           <Component id="jLabel14" alignment="1" max="32767" attributes="0"/>
-                          <Component id="cnb_nivel" pref="246" max="32767" attributes="0"/>
+                          <Component id="cnb_nivel" pref="252" max="32767" attributes="0"/>
                       </Group>
                       <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
                           <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
@@ -314,17 +314,16 @@
                 <StringItem index="5" value="Guest (Solo visualizar)"/>
               </StringArray>
             </Property>
-            <Property name="opaque" type="boolean" value="false"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="El nivel de Acceso solo puede ser modificado"/>
+            <Property name="text" type="java.lang.String" value="El nivel de Acceso solo puede ser"/>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="por el Administrador."/>
+            <Property name="text" type="java.lang.String" value="modificado por el Administrador."/>
           </Properties>
         </Component>
       </SubComponents>
